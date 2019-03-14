@@ -36,6 +36,12 @@
 
     <div class="footer">
       <div class="container">
+        <% if flash[:error].present? %>
+    <div class="col-10 offset-1 alert alert-danger">
+      <%= flash[:error] %>
+    </div>
+  <% end %>
+    <%= yield %>
         <div class="row">
           <div class="col-6">
             <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
