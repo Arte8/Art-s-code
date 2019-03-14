@@ -34,10 +34,21 @@
   color: black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+  font-family: 'Sniglet', cursive;
+  fonr-weight: bold;
 }
 header {
   border-top: 9px solid #222222;
 }
 hr {
   clear:both;
+}
+h1 {
+  font-family: 'Sniglet', cursive;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Sniglet', cursive;
 }
