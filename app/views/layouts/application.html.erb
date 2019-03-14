@@ -26,7 +26,7 @@
       </div>
       <div class="col-5 links">
         <%= link_to 'Contribute', new_quote_path %>
-        <%= link_to 'About', '#' %>
+        <%= link_to 'About', about_path %>
       </div>
     </header>
     <hr />
@@ -38,7 +38,7 @@
       <div class="container">
         <% if flash[:error].present? %>
     <div class="col-10 offset-1 alert alert-danger">
-      <%= flash[:error] %>
+      <%= flash[:error].html_safe %>
     </div>
   <% end %>
     <%= yield %>
