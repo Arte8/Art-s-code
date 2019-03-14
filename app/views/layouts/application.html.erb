@@ -10,6 +10,7 @@
   <body>
     <header class="row">
     <div class="col-3">
+      <%= link_to root_path, class: 'logo' do %>
         <div class="circle">
         <br />
         think
@@ -18,26 +19,26 @@
         <br />
         CODE
       </div>
+      <% end %>
       </div>
       <div class="col-4 slogan">
         Splurting out code code and code since 1984
       </div>
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %>
+        <%= link_to 'Contribute', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
     <hr />
     <br class="clear" />
       <%= yield %>
-      /div>
+      
 
     <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "This isn't enough, I need more", "#", class: 'next-quote' %>
-      </div>
+            <%= link_to "This isn't enough, I need more", root_path, class: 'next-quote' %>
       <div class="col-6 footer-blurb">
         Proudly hacked by <a href="[https://splurty-art-lobrin.herokuapp.com]">[Art Lobrin]</a><br />
         Want to build your own Splurty Web App - <a href="https://online.bootcampspot.com">Learn how to code here</a>
