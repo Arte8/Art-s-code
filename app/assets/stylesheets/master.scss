@@ -33,7 +33,7 @@
 .links a {
   color: black;
   font-size: 25px;
-  border-bottom: 1px solid #dfdfdf;
+  border-bottom: 1px solid #67a7e0;
   font-family: 'Sniglet', cursive;
   fonr-weight: bold;
 }
@@ -52,11 +52,17 @@ h1 {
 h2 {
   font-family: 'Sniglet', cursive;
 }
+
+html { 
+  background: url(laptop-notebook-computer-work-screen-tree-nature-forest-grass-outdoor-wilderness-open-winter-keyboard-technology-field-meadow-warm-leaf-remote-wildlife-web-internet-spring-green-natural-autumn-office-fresh-communication-business-environment.jpg) no-repeat center center fixed; 
+  width: 100%;
+}
+
+
 .next-quote {
-  color:#f84342;
+  color:#67a7e0;
   font-family: 'Sniglet', cursive;
   font-size:20px;
-
 }
 .footer-blurb {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
@@ -68,8 +74,12 @@ h2 {
   text-decoration: none;
 }
 .about {
-  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; font-color: #fa8723; 
 }
+.my-blurb { font-color: #fa8723; 
+}
+
 @media (max-width: 750px) {
   .footer-blurb {
     text-align: left;
@@ -79,7 +89,7 @@ h2 {
   font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
 }
 h2 span {
-  color: #3b9aed;
+  color: #67a7e0;
   font-family: 'Sniglet', cursive;
 }
 ::selection {
